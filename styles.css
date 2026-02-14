@@ -214,22 +214,18 @@ body {
 .hack-theme h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-shadow: 2px 2px 0px #000;
+    line-height: 1.2;
 }
 
-.hack-subtitle {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-.bug-icon {
-    width: 100px;
-    height: 100px;
-    color: #fff;
+.bug-img {
+    max-width: 80%;
+    max-height: 300px;
     margin: 20px auto;
     display: block;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
     animation: wiggle 2s infinite ease-in-out;
 }
 
